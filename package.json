@@ -9,7 +9,7 @@
   "jest": {
     "verbose": true,
     "displayName": {
-      "name": "Tes Function",
+      "name": "Tes",
       "color": "blue"
     },
     "transform": {
