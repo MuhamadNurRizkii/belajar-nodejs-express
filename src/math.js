@@ -15,4 +15,8 @@ const getUser = () => {
   };
 };
 
+export const totalPrice = (price, qty) => {
+  return price * qty;
+};
+
 export { tambah, getUser, kali };
