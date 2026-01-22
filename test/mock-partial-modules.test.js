@@ -1,4 +1,4 @@
-import { getAllProducts, getProductById } from "../src/database";
+import { getAllProducts, getProductById } from "../src/database.js";
 import { ProductService } from "../src/product-services.js";
 
 jest.mock("../src/database.js", () => {
