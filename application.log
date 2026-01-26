@@ -1,0 +1,16 @@
+{"level":"info","message":"Hello World"}
+{"level":"info","message":"Hello, Rizki"}
+{"level":"warn","message":"Hello World"}
+{"level":"warn","message":"Hello, Rizki"}
+{"level":"info","message":"Hello World","timestamp":"2026-01-26T14:01:57.272Z"}
+{"level":"info","message":"Hello World","timestamp":"2026-01-26T14:01:57.277Z"}
+{"level":"info","message":"Hello World","timestamp":"2026-01-26T14:01:57.278Z"}
+{"level":"error","message":"Terjadi kesalahan","timestamp":"2026-01-26T14:01:57.278Z"}
+{"level":"error","message":"Terjadi kesalahan","timestamp":"2026-01-26T14:01:57.279Z"}
+{"level":"error","message":"Terjadi kesalahan","timestamp":"2026-01-26T14:01:57.279Z"}
+{"level":"info","message":"Hello World","timestamp":"2026-01-26T14:03:48.944Z"}
+{"level":"info","message":"Hello World","timestamp":"2026-01-26T14:03:48.948Z"}
+{"level":"info","message":"Hello World","timestamp":"2026-01-26T14:03:48.949Z"}
+{"level":"error","message":"Terjadi kesalahan","timestamp":"2026-01-26T14:03:48.949Z"}
+{"level":"error","message":"Terjadi kesalahan","timestamp":"2026-01-26T14:03:48.950Z"}
+{"level":"error","message":"Terjadi kesalahan","timestamp":"2026-01-26T14:03:48.950Z"}
