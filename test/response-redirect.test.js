@@ -6,10 +6,11 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.redirect("/products");
 });
 
-test("Test Response", async () => {
+test("Test Response Redirect", async () => {
   const res = await request(app).get("/");
-  expect(res.text).toBe("Hello World");
+  expect(res.status).toBe(302);
+  expect(res.get("location")).toBe("/products");
 });
