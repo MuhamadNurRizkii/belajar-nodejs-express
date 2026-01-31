@@ -1,9 +1,11 @@
 import express from "express";
 import request from "supertest";
+import expressFileUpload from "express-fileupload";
 
 const app = express();
 
 app.use(express.json());
+app.use(expressFileUpload());
 
 app.post("/products/add", (req, res) => {
   const { name, price } = req.body;
